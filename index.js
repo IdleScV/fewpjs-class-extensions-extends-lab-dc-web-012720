@@ -31,3 +31,11 @@ class Triangle extends Polygon {
     }
   }
 }
+
+clas Square extends Polygon {
+  get isValid(){
+    if (this.countSides === 4){
+      
+    }
+  }
+}

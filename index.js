@@ -1,7 +1,9 @@
 // Your code here
 
 class Polygon {
-  constructor(array)
+  constructor(array){
+    this.
+  }
   
   
 }

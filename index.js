@@ -34,8 +34,6 @@ class Triangle extends Polygon {
 
 clas Square extends Polygon {
   get isValid(){
-    if (this.countSides === 4){
-      
-    }
+    return (this.countSides === 4)&&(this.countSides.uniq().length === 1)
   }
 }

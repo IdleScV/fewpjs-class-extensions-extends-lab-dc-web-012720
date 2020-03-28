@@ -5,5 +5,9 @@ class Polygon {
     this.
   }
   
+  get countSides(){
+    return array.length
+  }
+  
   
 }

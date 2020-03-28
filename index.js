@@ -2,12 +2,15 @@
 
 class Polygon {
   constructor(array){
-    this.
+    this.sides = array 
   }
   
   get countSides(){
     return array.length
   }
   
+  get perimeter(){
+    
+  }
   
 }

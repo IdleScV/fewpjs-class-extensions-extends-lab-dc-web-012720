@@ -1,7 +1,7 @@
 // Your code here
 
-class Polygon(array) {
-  constructor()
+class Polygon {
+  constructor(array)
   
   
 }

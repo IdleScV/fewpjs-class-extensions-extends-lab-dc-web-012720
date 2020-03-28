@@ -6,11 +6,11 @@ class Polygon {
   }
   
   get countSides(){
-    return array.length
+    return this.sides.length
   }
   
   get perimeter(){
-    
+    this.sides.
   }
   
 }

@@ -22,6 +22,12 @@ class Polygon {
 
 class Triangle extends Polygon {
   get isValid(){
-    return this.countSides === 3
+    if (this.countSides === 3){
+      let sides = this.sides.sort()
+      return (sides[0] + sides[1] >= sides[2])
+      
+    }else{
+      return false
+    }
   }
 }

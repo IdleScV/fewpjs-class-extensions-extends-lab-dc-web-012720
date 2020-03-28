@@ -10,12 +10,12 @@ class Polygon {
   }
   
   get perimeter(){
-    this.perimeter = this.sides.reduce(function(a, b){
-
-        return a + b;
-
-    }, 0);
-    return this.perimeter
+    let ans = 0
+    for(let i = 0; i < this.sides; i++){
+      ans += this.sides[i]
+    }
+    
+    return ans
   }
   
 }
